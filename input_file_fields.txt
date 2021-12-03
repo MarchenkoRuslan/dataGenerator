@@ -1,0 +1,15 @@
+REQUEST_NUMBER - \d{1,7}
+TRANSACTION_CODE – (DIV|LGAIN|SGAIN|RDIV|RLCP|RSCP)
+DISTRIBUTION_DATE – yyyymmdd
+CUSIP – ([A-Z\d]{9}|\d{1,7})
+SEC_NO - \d{1,7}
+PRICE - \d+\.\d{6}
+SUBSCRIBER_TYPE – (Account Type|Agent)
+APLID - \d{1,7}
+ACCT_NO - \d{8}
+TAX_ID – (\d{9}|\d{3}-\d{2}-\d{4}|\d{3}-\d{6})
+PSTN_QTY - \d+\.\d{6}
+NET_AMT - \d+\.\d{6}
+FIRST_NAME – [A-Za-z ]*
+MIDDLE_NAME – [A-Za-z ]*
+LAST_NAME – [A-Za-z ]+
